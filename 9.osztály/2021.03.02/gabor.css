@@ -1,0 +1,48 @@
+body {
+    background-color: #f4f292;
+}
+
+p,
+li,
+h1 {
+    margin: 5px;
+    padding: 5px;
+    background-color: #ebe98d;
+    border-radius: 5%;
+}
+
+div {
+    text-align: center;
+}
+
+img {
+    border-radius: 10%;
+}
+
+a,
+a:active,
+a:hover {
+    color: black;
+}
+
+a:hover {
+    font-size: large;
+}
+
+#row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}

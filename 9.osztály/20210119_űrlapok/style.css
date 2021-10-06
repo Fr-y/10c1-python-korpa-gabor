@@ -1,0 +1,12 @@
+body {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#nagy {
+    font-size: larger;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}

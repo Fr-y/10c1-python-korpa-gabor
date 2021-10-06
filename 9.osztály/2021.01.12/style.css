@@ -1,0 +1,43 @@
+body {
+    width: 50%;
+    margin: 0 auto;
+    color: #777784;
+    background-color: #f6f6f6;
+    text-align: center;
+}
+
+input {
+    background-color: #e6e6e6;
+    border: none;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    opacity: 1;
+}
+
+hr {
+    height: 3px;
+    background-color: #777784;
+}
+
+table {
+    text-align: left;
+}
+
+table tr:nth-child(6) td:first-child {
+    vertical-align: top;
+}
+
+table tr td:first-child {
+    text-align: right;
+}
+
+#inset {
+    border: inset;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}

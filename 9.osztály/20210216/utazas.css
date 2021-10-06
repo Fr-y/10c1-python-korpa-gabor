@@ -1,0 +1,36 @@
+body {
+    background-image: url('kepek/vilagterkep.jpg');
+}
+
+h1 {
+    position: relative;
+    top: -75px;
+    left: -30px;
+    color: rgb(28, 36, 53);
+    padding: 15px 35px;
+    background-color: white;
+    width: 470px;
+    border-radius: 35px;
+    margin-bottom: -75px;
+}
+
+img {
+    width: 100%;
+}
+
+.carousel-inner img {
+    height: 400px;
+    width: 100%;
+}
+
+span {
+    font-variant: small-caps;
+}
+
+section {
+    margin-top: 10px;
+}
+
+label {
+    padding-left: 10px;
+}

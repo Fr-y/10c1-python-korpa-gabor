@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Zűrlapok</title>
+</head>
+
+<body>
+
+    <form name="elso">
+        <table>
+            <tr>
+                <td>Név</td>
+                <td><input type="text" name="nev" size="20" placeholder="Írd ide a neved"></td>
+            </tr>
+            <tr>
+                <td>Jelszó</td>
+                <td><input type="password" name="jelszo" size="20" maxlength="20" placeholder="Válassz jelszót!"></td>
+            </tr>
+            <tr>
+                <td>Születési év</td>
+                <td><input type="number" name="szulev" size="20" value="2000"></td>
+            </tr>
+        </table>
+
+        <br><br>
+
+        <input type="checkbox" name="italok" value="tej" checked> Tej
+        <br>
+        <input type="checkbox" name="italok" value="tea" checked> Tea
+        <br>
+        <input type="radio" name="ital">Tej
+        <br>
+        <input type="radio" name="ital">Tea
+        <br><br>
+        <input type="button" value="Számol" onclick="szamitas();">
+        <br><br>
+        <input type="submit" value="elküldés">
+        <input type="reset" value="törlés">
+
+        <div id="proba"></div>
+    </form>
+
+    <form name="Negyzet">
+        <p>Négyzet kerületének és területének számitása</p>
+        <p>Add meg a négyzet oldalát:</p>
+        <input type="text" name="oldal">
+
+        <input type="button" value="Számol" onclick="negyzet();">
+        <div id="n"></div>
+
+    </form>
+
+    <form name="Kor">
+        <p>Kör kerületének és területének számitása</p>
+        <p>Add meg a kör sugarát:</p>
+        <input type="text" name="sugar">
+
+        <input type="button" value="Számol" onclick="kor();">
+        <div id="m"></div>
+    </form>
+    <hr>
+
+    <form name="Teglalap">
+        <p>Téglalap kerületének és területének számitása</p>
+        <p>Add meg a téglalap A oldalát</p>
+        <input type="text" name="aoldal">
+        <p>Add meg a téglalap B oldalát</p>
+        <input type="text" name="boldal">
+
+        <input type="button" value="Számol" onclick="teglalap1();">
+        <div id="tlap"></div>
+    </form>
+
+</body>
+
+</html>

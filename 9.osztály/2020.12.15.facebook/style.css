@@ -1,0 +1,19 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    font-family: Segoe UI;
+    background-image: linear-gradient(#fefefe, #d2d8e8);
+}
+
+#login {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#register {
+    position: absolute;
+    right: 0;
+}

@@ -1,0 +1,18 @@
+.cim {
+    color: blue;
+}
+
+.egyetem {
+    color: blueviolet;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.nev {
+    color: green;
+    font-style: italic;
+}
+
+body {
+    background-color: lightgrey;
+}

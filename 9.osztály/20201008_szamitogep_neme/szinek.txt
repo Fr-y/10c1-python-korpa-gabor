@@ -1,0 +1,7 @@
+﻿Javasolt betűszín:
+
+    #333333 
+
+A vízszintes vonalak javasolt színe:
+
+    #555555 

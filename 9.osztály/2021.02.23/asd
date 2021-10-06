@@ -1,0 +1,15 @@
+egész container
+header
+    sor navbar
+        sor kép
+
+
+    sor
+        col szöveg
+        h2
+        p*3
+            100
+            50
+            100
+        col kép
+            fluid, 
