@@ -52,11 +52,17 @@ while i<n+1:
     i += 1
 print(ossz)"""
 
-#18. Írasd ki azokat a kétjegyű számokat, amelyek számjegyeinek összege 10 (19 28 37 ...)
+
+"""#18. Írasd ki azokat a kétjegyű számokat, amelyek számjegyeinek összege 10 (19 28 37 ...)
 i = 10
 while i<100:
-    i
- 
+    tizes = int(i / 10) #megkapjuk a tizesek helyen álló számot
+    egyes = i - tizes * 10 #megkapjuk az egyesek helyén álló számot
+    if tizes + egyes == 10: #ha a számjegyek összege 10
+        print(i, end=" ")
+    i += 1"""
+
+
 """#19. Írasd ki azokat a számpárokat, amelyek összege 18 (1 -17, 2 -16, …) 
 n1 = 1
 n2 = 17
