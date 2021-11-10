@@ -12,7 +12,6 @@ def elso():
         i += 1
     print(t3)
 
-
 #Írjon egy programot, ami kiíratja egy lista összes elemét. Ha például a fenti gyakorlat 
 #t2 listájára alkalmaznánk, akkor a következőt kellene kapnunk :
 #Január Február Március Április Május Június Július Augusztus Szeptember Október 
