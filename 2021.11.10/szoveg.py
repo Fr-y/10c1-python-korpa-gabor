@@ -1,5 +1,8 @@
 from math import *
 import random
+
+szoveg = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum debitis porro ab saepe doloremque voluptate consectetur? Sequi explicabo quibusdam temporibus, cupiditate, amet laudantium obcaecati quis provident est hic qui cumque.'
+
 #Vágjon föl egy hosszú stringet 5 karakter hosszú darabokra. Rakja össze a darabokat fordított
 #sorrendben.
 def elso():
@@ -25,10 +28,10 @@ def elso():
 def megtalal(szo, char):
     if char not in szo:
         print("Az adott betű nincs benne a szóba")
+        return -1
     else:
-        print(szo.index(char))
-#megtalal('almafa', 'l')
-
+        return szo.index(char)
+#megtalal(szoveg, 'l')
 
 
 
@@ -36,11 +39,13 @@ def megtalal(szo, char):
 #azt az indexet, amelyiktől kezdve keresni kell a karakterláncban. Így például a következő 
 #utasításnak : 15 öt kell kiírni (és nem 4 et!)
 #print megtalal("César & Cléopâtre", "r", 5)
-def megtalal2(szo, char, index):
+def megtalal2(szo, char, ind):
     if char not in szo:
         print("Az adott betű nincs benne a szóba")
+        return -1
     else:
-        print(szo.index(char, 5))
+        print(szo.index(char, ind))
+        return szo.index(char, ind)
 #megtalal2("César & Cléopâtre", "r", 5)
 
 
@@ -53,7 +58,10 @@ def karakterszam(szo, char):
     for betu in szo:
         if betu == char:
             i += 1
-    print(i)
+    return i
+
+    # vagy
+    # return szo.count(char)
 #karakterszam("ananas au jus","a")
 
 
@@ -66,7 +74,7 @@ def otodik():
     prefixes = 'JKLMNOPQ'
     suffix = 'ack'
     for char in prefixes:
-        print(prefixes[prefixes.index(char)] + suffix, end=', ')
+        print(char + suffix, end=', ')
 #otodik()
 
 
@@ -74,7 +82,7 @@ def otodik():
 def hatodik(mondat):
     szavak = mondat.split()
     print(len(szavak))
-#hatodik('Ez egy nagyon hosszú mondat sok szóval benne.')
+#hatodik(szoveg)
 
 
 
@@ -117,7 +125,7 @@ def kilencedik(char):
 def szavakkaalakitas(mondat):
     szavak = mondat.split()
     return szavak
-#szavakkaalakitas("Ez egy nagyon hosszú mondat sok szóval benne.")
+#szavakkaalakitas(szoveg)
 
 
 
@@ -158,7 +166,7 @@ def tizennegy(mondat):
         if nagybetu(char) == True:
             i += 1
     print(i)
-#tizennegy("E szavakhoz még ha lehet is Értelmes Szövegösszefüggést alkotni, jeleNtésük RenDszerint nem Határozható meg eGyértelműen tagjaikból, Képzésük pedig nemritkán szabálytalan.")
+#tizennegy(szoveg)
 
 
 
@@ -190,7 +198,7 @@ def kisbetusites(mondat):
         szoveg[n] = kisbetusitett[i]
     for i in szoveg:
         print(i, end="")
-#kisbetusites("E szavakhoz még ha lehet is Értelmes SzövegsszefÜggést alkotni jeleNtésük REnDszerint nem Határozható meg.")
+#kisbetusites(szoveg)
 
 
 
@@ -213,7 +221,7 @@ def nagybetusites(mondat):
         szoveg[n] = nagybetusitett[i]
     for i in szoveg:
         print(i, end="")
-#nagybetusites("E szavakhoz még ha lehet is Értelmes SzövegsszefÜggést alkotni jeleNtésük REnDszerint nem Határozható meg.")
+#nagybetusites(szoveg)
 
 
 
@@ -239,7 +247,7 @@ def vowels_in_sentence(mondat):
             n += 1
     print(n)
     return n
-#vowels_in_sentence("E szavakhoz még ha lehet is Értelmes SzövegsszefÜggést alkotni jeleNtésük REnDszerint nem Határozható meg.")
+#vowels_in_sentence(szoveg)
 
 
 
@@ -441,4 +449,4 @@ def kartyahuzas():
     kartyak = [2, 3, 4, 5, 6, 7, 8, 9, 10, "Bubi", "Dáma", "Király", "Ász"]
     input('Nyomjon <Enter>t egy lap húzásához        ')
     print(random.choice(tipusok), random.choice(kartyak))
-kartyahuzas()
+#kartyahuzas()
