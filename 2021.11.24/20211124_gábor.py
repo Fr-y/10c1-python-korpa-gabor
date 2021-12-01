@@ -3,7 +3,7 @@ from random import *
 maganhangzok = "aáeéoóöőüűuúií"
 
 def elso():  
-    a = [x *x for x in range(20, 41)]
+    a = [x * n for x in range(20, 41)]
     print(a)
 
 
