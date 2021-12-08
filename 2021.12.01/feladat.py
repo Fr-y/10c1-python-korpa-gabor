@@ -111,7 +111,9 @@ eltérést.
 '''
 
 def hatodik():
-    print(asd)
+    f1 = open("szoveg2.txt", "r")
+    f2 = open("szoveg3.txt", "r")
+    a = f3.rea
 
 
 '''
