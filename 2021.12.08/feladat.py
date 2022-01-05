@@ -124,12 +124,9 @@ for i in range(10):
 print()
 
 #28
-# ---||---
+for i in range(1, 11):
+    print(i*2, end=" ")
+print()
 
-#29
-i = 0
-while i < 10:
-    if i % 2 == 0:
-        print(i, end=" ")
 
     
