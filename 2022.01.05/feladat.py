@@ -85,7 +85,7 @@ def feladat40():
     print("Párosok terjedelme:", max(parosok) - min(parosok))
     print("Legnagyobb páros szám:", max(parosok))
 
-
+ 
 def feladat41():
     f = open("10szam.txt", "x")
     for x in range(10):
