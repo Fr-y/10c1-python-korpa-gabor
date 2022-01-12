@@ -1,5 +1,6 @@
 def szamitas():
 
+
     router = int(input("Egy router ára: ")) * int(input("A routerek száma: "))
     laptop = int(input("Egy laptop ára: ")) * int(input("A laptopok száma: "))
     szerver = int(input("Egy szerver ára: ")) * int(input("A szerverek száma: "))
