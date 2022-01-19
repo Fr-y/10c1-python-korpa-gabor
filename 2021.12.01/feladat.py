@@ -111,7 +111,17 @@ eltérést.
 '''
 
 def hatodik():
-    print(asd)
+    f = open("szoveg2.txt", "r")
+    f2 = open("szoveg3.txt", "r")
+
+    z = zip(f, f2)
+
+    for tuple in z:
+        for word in tuple[0]:
+            print(tuple)
+            if word[0] == word[1]:
+                print("asd")
+
 
 
 '''
@@ -122,8 +132,8 @@ egyik eredeti file végét, akkor egészítse ki a C filet a másik file maradé
 elemeivel.
 '''
 
-def hetedik():
-    print(asd)
+# def hetedik():
+#     print(asd)
 
 # -- meghivások --
 #elso()
