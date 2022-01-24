@@ -49,7 +49,7 @@ def masodik():
 '''
 3.
 Írjon egy scriptet, ami automatikusan létrehoz egy szövegfilet, ami a
-2 – 30 as szorzótáblákat tartalmazza (20-20 tagot tartalmazzon).
+2 - 30 as szorzótáblákat tartalmazza (20-20 tagot tartalmazzon).
 '''
 
 def harmadik():
