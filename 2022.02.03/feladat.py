@@ -72,7 +72,10 @@ def feladat16():
     f.close()
 
 def feladat17():
-
+    f = open('dobokocka.txt', 'w')
+    for x in [x in range(1,6) for x in range(50)]: f.write(f'{x} ')
+    f.close()
+    
 
 
 
@@ -82,4 +85,5 @@ def feladat17():
 # feladat12()
 # feladat13()
 # feladat14()
-feladat16()
+# feladat16()
+feladat17()
