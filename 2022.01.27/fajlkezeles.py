@@ -105,19 +105,6 @@ def feladat11():
     f.close()
 
 
-# for i in range(256):
-#         print(chr(i), end=" ")
-
-def feladat12():
-    f = open('karakterek.txt', 'w')
-    for i in range(30):
-        f.write(f'{randint(993 , 1041)} hPa \n')
-    f.close()
-
-
-
-
-
 # -- main --
 # feladat1()
 # feladat2()
