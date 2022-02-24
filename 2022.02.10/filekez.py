@@ -132,7 +132,7 @@ def feladat26():
     f = open('fogyasztas.txt', 'w')
     for i in range(12):
         km = randint(480,540)
-        l = randint(367, 398) / 100
+        l = randint(367, 398) / 10
         f.write(str(km) + ' '+ str(l) + ' \n')
 
     f.close()
@@ -159,7 +159,7 @@ def feladat27():
         else:
             csoport += "-"
         
-        f.write(csoport + '\n')
+        f.write(f'{csoport} ')
 
 
     f.close()
@@ -185,7 +185,7 @@ def feladat28():
         else:
             zoli = "o "
 
-        f.write(tomi + zoli + '\n')
+        f.write(f'{tomi} {zoli} \n')
 
 
     f.close()
@@ -205,9 +205,9 @@ def feladat28():
 # feladat23()
 # feladat24()
 # feladat25()
-# feladat26()
+feladat26()
 # feladat27()
-feladat28()
+# feladat28()
 
 
 
