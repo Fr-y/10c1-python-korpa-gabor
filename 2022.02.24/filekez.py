@@ -76,9 +76,9 @@ def feladat30():
     f.close()
 
 
-# feladat26()
-# feladat27()
+feladat26()
+feladat27()
 # feladat27masik()
-# feladat28()
-# feladat29()
+feladat28()
+feladat29()
 feladat30()

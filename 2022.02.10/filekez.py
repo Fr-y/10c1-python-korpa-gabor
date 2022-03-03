@@ -195,19 +195,19 @@ def feladat28():
 
 
 # -- meghivások --
-# feladat16()
-# feladat17()
-# feladat18()
-# fealadt19()
-# feladat20()
-# feladat21()
-# feladat22()
-# feladat23()
-# feladat24()
-# feladat25()
+feladat16()
+feladat17()
+feladat18()
+fealadt19()
+feladat20()
+feladat21()
+feladat22()
+feladat23()
+feladat24()
+feladat25()
 feladat26()
-# feladat27()
-# feladat28()
+feladat27()
+feladat28()
 
 
 
